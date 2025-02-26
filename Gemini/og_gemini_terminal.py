@@ -3,7 +3,7 @@ from pandasql import sqldf
 import google.generativeai as genai
 import streamlit
 # Configure Google Gemini API
-genai.configure(api_key='AIzaSyAv9q1TVVAwmVx6DUJUeQYRqvcZvd3IaVs')
+genai.configure(api_key='ENTER YOUR API KEY')
 
 def get_csv_schema(csv_path):
     """Read CSV file and return its schema with sample data"""
