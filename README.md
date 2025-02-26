@@ -1,7 +1,7 @@
 # College Finder Chatbot
 
 ## Overview
-The **College Finder Chatbot** is an intelligent AI-powered chatbot designed to help students find the best colleges based on their preferences. It uses Large Language Models (LLMs) such as Gemini, ChatGPT, Flan-T5, and another model to convert natural language queries into SQL queries. The chatbot is built with **Streamlit** for an interactive and user-friendly interface.
+The **College Finder Chatbot** is an intelligent AI-powered chatbot designed to help students find the best colleges based on their preferences. Using various Large Language Models (LLMs) such as Gemini, ChatGPT, Flan-T5, phi3 model to convert natural language queries into SQL queries. The chatbot is built with **Streamlit** for an interactive and user-friendly interface.
 
 ## Features
 - **Natural Language Processing:** Converts user queries into SQL commands dynamically.
