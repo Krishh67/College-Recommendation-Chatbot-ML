@@ -105,8 +105,10 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 # Configure Google Gemini API
-genai.configure(api_key=os.environ.get('GOOGLE_GEMINI_API_KEY'))
+api_key = st.secrets["general"]["GOOGLE_GEMINI_API_KEY"]
 
+# Configure Google Gemini API
+genai.configure(api_key=api_key)
 
 
 def render_college_card(college):
