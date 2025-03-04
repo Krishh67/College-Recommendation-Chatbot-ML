@@ -308,7 +308,7 @@ if st.session_state.page == 'main_page':
 
 
 
-        lottie_animation = json.load(open("assets/a.json"))
+        lottie_animation = json.load(open("assets/c.json"))
         st_lottie(lottie_animation, height=450, width=650)
         
     if st.button("FIND MY DREAM CAMPAS 🌍➡️", use_container_width=True):
