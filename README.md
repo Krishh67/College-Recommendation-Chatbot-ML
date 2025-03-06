@@ -5,14 +5,14 @@ The **College Finder Chatbot** is an intelligent AI-powered chatbot designed to 
 
 ## Features
 - **Natural Language Processing:** Converts user queries into SQL commands dynamically.
-- **Multiple LLMs Supported:** Uses Gemini, ChatGPT, Flan-T5, and one more model for query understanding.
+- **Multiple LLMs Supported:** Uses Gemini, ChatGPT, Flan-T5, and llama model for query understanding.
 - **Dynamic Filtering:** Searches a CSV dataset containing 57 rows with multiple parameters (e.g., Name, GPA, Package, etc.).
 - **Streamlit UI:** Provides an interactive web-based chatbot experience.
 
 ## Tech Stack
 - **Python**
 - **Streamlit** (for UI development)
-- **LLM APIs** (Gemini, ChatGPT, Flan-T5, and one more)
+- **LLM APIs** (Gemini, ChatGPT, Flan-T5,Llama and some other failed to giving right output)
 - **SQL** (for structured queries)
 - **Pandas** (for CSV data handling)
 
@@ -20,7 +20,10 @@ The **College Finder Chatbot** is an intelligent AI-powered chatbot designed to 
 ## Video Demonstration
 
 
-https://github.com/user-attachments/assets/457b7f0d-beb4-4816-982e-03492a5f5aad
+
+https://github.com/user-attachments/assets/c51cb500-b2a2-4884-a022-10316c89f6eb
+
+
 
 
 ## Installation
@@ -35,7 +38,7 @@ https://github.com/user-attachments/assets/457b7f0d-beb4-4816-982e-03492a5f5aad
    ```
 3. Run the Streamlit app:
    ```sh
-   streamlit run app.py
+   python -m streamlit run app.py
    ```
 
 ## Usage
@@ -55,4 +58,6 @@ Feel free to open issues or submit pull requests to improve the chatbot.
 
 ## License
 This project is licensed under the MIT License.
+## IMPORTANT
+The given data by this application is not Authentic , As this data(in csv)was created by ai and contains error in differet locations but it was just created to learn and implement my project 
 
