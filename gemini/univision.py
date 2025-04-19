@@ -114,6 +114,7 @@ genai.configure(api_key=api_key)
 def render_college_card(college):
     """Create HTML card for a college"""
     return f"""
+    
     <div class="college-card">
         <div class="card-header">
             <h3>🏛️ {(college['university_name'])}</h3>
@@ -379,6 +380,7 @@ elif st.session_state.page == 'code_page':
                 
                 sql_query = response.text.split('```sql')[-1].split('```')[0].strip()
                 print(sql_query)
+                st.markdown(sql_query)
                 results = sqldf(sql_query, {'df': df})
                 print(results)
                 # Build HTML response
